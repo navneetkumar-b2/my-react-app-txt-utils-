@@ -23,3 +23,5 @@ export default Alert;
 // firstly alert is included in app.js (<Alert alert={alert} />)
 // and alert is set as null (const [alert, setAlert] = useState(null);)
 // in alert.js due to this code { props.alert && <div className={`alert alert-${props.alert.type} alert-dismissible fade show`} , props.alert agar null ya false hoga to age wali block execute nhi hoga.
+
+//jyse hi prop.alert true hoga ye component exwcute ho jayega
